@@ -3,6 +3,6 @@ onload = () => {
     const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
         clearTimeout(c);
-        // myMusic.play();
+        myMusic.play();
     }, 1000);
 };

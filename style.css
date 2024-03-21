@@ -64,19 +64,19 @@ button {
 
 .flowers.center {
     position: relative;
-    top: 18px;
+    top: 10px;
 }
 
 .flowers.right {
     position: relative;
     right: 127px;
-    top: 32px;
+    top: 22px;
 }
 
 .flowers.left {
     position: relative;
     left: 127px;
-    top: 32px;
+    top: 22px;
 }
 
 .flowers {

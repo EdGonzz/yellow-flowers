@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
 </head>
 
 <body class="not-loaded">
@@ -21,16 +20,13 @@
                 <p class="white">Because you're here💖</p>
                 <div>
                     <audio id="music">
-                        <source src="/assets/A-Whole-New-World.mp3" type="audio/mpeg">
+                        <source src="assets/A-Whole-New-World.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <script>
                         var myMusic = document.getElementById("music");
                         function play() {
-                            myMusic.play();
-                        }
-                        function pause() {
-                            myMusic.pause();
+                            myMusic.play()
                         }
                     </script>
                 </div>
@@ -937,6 +933,7 @@
         </div>
 
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
